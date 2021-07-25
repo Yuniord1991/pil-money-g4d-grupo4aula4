@@ -18,6 +18,7 @@ import { DepositoComponent } from './src/app/deposito/deposito.component';
 import { ExtraccionComponent } from './src/app/extraccion/extraccion.component';
 import { TransferenciaComponent } from './src/app/transferencia/transferencia.component';
 import { HomeComponent } from './src/app/home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -41,7 +42,8 @@ import { HomeComponent } from './src/app/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
